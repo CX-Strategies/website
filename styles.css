@@ -275,20 +275,18 @@ a { color: inherit; text-decoration: none; }
   }
   .hero__meta { gap: 12px; }
   .hero__meta span + span::before { margin-right: 12px; }
+
   .foot {
     flex-direction: column;
     align-items: flex-start;
-    gap: 14px;
+    gap: 18px;
+    padding-bottom: 40px;
   }
-  .foot__right { gap: 14px; }
-  .foot__right span:not(:last-child)::after { margin-left: 14px; }
-}
-
-@media (max-width: 420px) {
   .foot__right {
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
   }
   .foot__right span:not(:last-child)::after { display: none; }
+  .foot__right a { font-size: 12px; }
 }
