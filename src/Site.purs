@@ -104,6 +104,9 @@ footer =
     , HH.div [ HP.class_ (ClassName "foot__right") ]
         [ HH.span_ [ HH.text "© 2025" ]
         , HH.span_ [ HH.text "New York" ]
-        , HH.span_ [ HH.text "talent@cxstrategies.io" ]
+        , HH.span_
+            [ HH.a [ HP.href "mailto:talent@cxstrategies.io" ]
+                [ HH.text "talent@cxstrategies.io" ]
+            ]
         ]
     ]
