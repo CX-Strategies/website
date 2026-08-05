@@ -71,7 +71,7 @@ prose =
     , team
     , HH.div [ HP.class_ (ClassName "prose__cta") ]
         [ HH.p_
-            [ HH.text "We're growing carefully, and always looking for exceptional talent. If you thrive in fast-moving environments, enjoy meticulous work, and love thinking about how to optimize the bottom line, we'd love to have you join us in New York — or at least, New York as of the day this was posted. Write to "
+            [ HH.text "We're looking to add one or two people to our team, and are always on the lookout for the exceptional. If you thrive in fast-moving environments, enjoy meticulous work, and love thinking about how to optimize the bottom line, we'd love to have you join us in New York — or at least, New York as of the day this was posted. Write to "
             , HH.a [ HP.href "mailto:talent@cxstrategies.io" ]
                 [ HH.text "talent@cxstrategies.io" ]
             , HH.text "."
