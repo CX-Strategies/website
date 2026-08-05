@@ -41,16 +41,6 @@ a { color: inherit; text-decoration: none; }
 ::selection { background: var(--fg); color: var(--bg); }
 :focus-visible { outline: 1px solid var(--fg); outline-offset: 4px; }
 
-/* SEO fallback: readable to crawlers, invisible to users.
-   Halogen clears #app on mount so this is only present pre-hydration. */
-.seo-fallback {
-  position: absolute;
-  width: 1px; height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
 
 /* -----------------------------------------------------------------
    Hero — atmospheric backdrop, single caption
