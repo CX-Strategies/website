@@ -1,0 +1,28 @@
+package:
+  name: cx-strategies
+  dependencies:
+    - prelude
+    - effect
+    - console
+    - aff
+    - halogen
+    - halogen-subscriptions
+    - maybe
+    - integers
+    - numbers
+    - strings
+    - arrays
+    - random
+    - transformers
+    - tuples
+    - refs
+    - web-dom
+  bundle:
+    module: Main
+    outfile: public/bundle.js
+    platform: browser
+    minify: true
+workspace:
+  packageSet:
+    registry: 80.3.0
+  extraPackages: {}

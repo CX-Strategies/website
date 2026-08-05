@@ -1,0 +1,19 @@
+{
+  "name": "cx-strategies-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "cxstrategies.io",
+  "scripts": {
+    "build:purs": "spago build",
+    "build:bundle": "spago bundle --module Main --outfile public/bundle.js --minify",
+    "build": "npm run build:purs && npm run build:bundle && npm run copy",
+    "copy": "cp public/index.html ./index.html && cp public/styles.css ./styles.css && cp public/bundle.js ./bundle.js",
+    "dev": "spago build && spago bundle --module Main --outfile public/bundle.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "playwright": "^1.62.1",
+    "purescript": "^0.15.15",
+    "spago": "next"
+  }
+}
